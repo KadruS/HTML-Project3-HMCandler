@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Project3-Candle</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+    <!-- Fix bug with resize couses from probably burger menu, check it out -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./img/logo.png" alt="logo" class="logo__img">
+            </a>
+            <nav class="menu" id="menu">
+                <ul class="menu__list" id="menu__list">
+                    <li class="menu__list-item"><a href="#" class="menu__list-link">Про нас</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-link">Каталог</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-link">Команда</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-link">Відгуки</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-link">Курси</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-link">Контакти</a></li>
+                </ul>
+            </nav>
+            <a href="tel:+89994508011" class="phone">
+                <img src="./img/phone.svg" alt="phone" class="phone__img">
+                +45 34 56 78 92
+            </a>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="top">
+            <div class="container">
+                <div class="top__content">
+                    <h3 class="top__title">Створіть атмосферу затишку та гармонії!</h3>
+                    <p class="top__text">Створіть особливу атмосферу у своєму домі з нашою екологічно чистою та
+                        якісною продукцією зі 100% натуральної соєвого воску.</p>
+                    <button class="top__btn button">Купити</button>
+                    <picture class="top__img">
+                        <img src="./img/top-l.png" class="top__img-l">
+                        <img src="./img/top-m.png" class="top__img-m">
+                        <img src="./img/top-s.png" class="top__img-s">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <div class="about__content">
+                    <h3 class="about__title title">Про нас</h3>
+                    <p class="about__text text">Богдан творець бренду який завжди зацікавлений у виготовленні
+                        різноманітних речей
+                        вдома. Він регулярно експериментував з різними матеріалами та інструментами, спробувавши свої
+                        сили у
+                        багатьох галузях, включаючи виготовлення свічок.
+                    </p>
+                    <p class="about__text text">Ссоєвий віск виготовляють із соєвих бобів, що зрощуються в Данії, і цей
+                        вид воску є
+                        екологічно чистим та безпечним для здоров'я.
+                    </p>
+                    <picture class="about__img">
+                        <img src="./img/about-bg-l.png" class="about__img-l">
+                        <img src="./img/about-bg-m.png" class="about__img-m">
+                        <img src="./img/about-bg-s.png" class="about__img-s">
+                    </picture>
+                    <span class="about__candle candle-line"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="products section">
+            <div class="container">
+                <div class="products__inner section__inner">
+                    <div class="products__description section__description">
+                        <h3 class="products__title title">Наші товари</h3>
+                        <p class="products__text text">Ми використовуємо тільки найкращі якісні матеріали: соєвий віск,
+                            віскові барвники, високоякісні ароматичні олії та бавовняні фітільці. Відтінки свічок дуже
+                            гармонійно поєднуються з ароматом, створюючи незабутню атмосферу у вашому домі.
+                        </p>
+                    </div>
+                    <div class="products__items section__content">
+                        <div class="products__item">
+                            <img src="./img/products-1.jpg" alt="product" class="products__item-img">
+                            <h3 class="products__item-price title">10$</h3>
+                            <h3 class="products__item-title title">"Сердечко кохання"</h3>
+                            <p class="products__item-text">Запах: ніжний аромат троянди та ванілі.
+                                Для чого: для атмосфери романтичного настрою
+                            </p>
+                            <button class="products__item-btn button">Купити</button>
+                        </div>
+                        <div class="products__item">
+                            <img src="./img/products-2.jpg" alt="product" class="products__item-img">
+                            <h3 class="products__item-price title">20$</h3>
+                            <h3 class="products__item-title title">"Вихір кохання"</h3>
+                            <p class="products__item-text">Запах: ніжний аромат лаванди.
+                                Для чого: для створення атмосфери затишку
+                            </p>
+                            <button class="products__item-btn button">Купити</button>
+                        </div>
+                        <div class="products__item">
+                            <img src="./img/products-3.jpg" alt="product" class="products__item-img">
+                            <h3 class="products__item-price title">10$</h3>
+                            <h3 class="products__item-title title">"Веселка"</h3>
+                            <p class="products__item-text">Запах: Свіжий аромат лайма.
+                                Для чого: для енергії та свіжості в приміщені.
+                            </p>
+                            <button class="products__item-btn button">Купити</button>
+                        </div>
+                        <div class="products__item">
+                            <img src="./img/products-4.jpg" alt="product" class="products__item-img">
+                            <h3 class="products__item-price title">10$</h3>
+                            <h3 class="products__item-title title">"Жіноча чарівність"</h3>
+                            <p class="products__item-text">Запах: ніжний аромат лаванди та фрезій. Для чого: для затишку
+                                та комфорту.
+                            </p>
+                            <button class="products__item-btn button">Купити</button>
+                        </div>
+                    </div>
+                    <span class="products__candle candle-line"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="stages section">
+            <div class="container">
+                <div class="stages__inner section__inner">
+                    <div class="stages__description section__description">
+                        <h3 class="stages__title title">Етапи створення свічок</h3>
+                        <p class="stages__text text">
+                            Створення свічки із соєвого воску може складатися з наступних етапів:
+                        </p>
+                    </div>
+                    <div class="stages__items section__content">
+                        <div class="stages__item">
+                            <div class="stages__item-text">
+                                <p class="stages__item-desc">Підготовка матеріалів: дрібні фрагменти соєвого воску,
+                                    фітіль для свічки, ароматизатори, барвники та інші додаткові матеріали.
+                                </p>
+                                <h5 class="stages__item-number">01</h5>
+                            </div>
+                            <img src="./img/stages-1.jpg" class="stages__item-img">
+                        </div>
+                        <div class="stages__item">
+                            <div class="stages__item-text">
+                                <p class="stages__item-desc">
+                                    Підготовка форми: вибір форми для свічки та підготовка її до
+                                    наповнення воском.
+                                </p>
+                                <h5 class="stages__item-number">02</h5>
+                            </div>
+                            <img src="./img/stages-2.jpg" class="stages__item-img">
+                        </div>
+                        <div class="stages__item">
+                            <div class="stages__item-text">
+                                <p class="stages__item-desc">Підготовка матеріалів: дрібні фрагменти соєвого воску,
+                                    фітіль для свічки, ароматизатори, барвники та інші додаткові матеріали.
+                                </p>
+                                <h5 class="stages__item-number">03</h5>
+                            </div>
+                            <img src="./img/stages-3.jpg" class="stages__item-img">
+                        </div>
+                        <div class="stages__item">
+                            <div class="stages__item-text">
+                                <p class="stages__item-desc">Підготовка матеріалів: дрібні фрагменти соєвого воску,
+                                    фітіль для свічки, ароматизатори, барвники та інші додаткові матеріали.
+                                </p>
+                                <h5 class="stages__item-number">04</h5>
+                            </div>
+                            <img src="./img/stages-4.jpg" class="stages__item-img">
+                        </div>
+                        <div class="stages__item">
+                            <div class="stages__item-text">
+                                <p class="stages__item-desc">Підготовка матеріалів: дрібні фрагменти соєвого воску,
+                                    фітіль для свічки, ароматизатори, барвники та інші додаткові матеріали.
+                                </p>
+                                <h5 class="stages__item-number">05</h5>
+                            </div>
+                            <img src="./img/stages-5.jpg" class="stages__item-img">
+                        </div>
+                        <div class="stages__item">
+                            <div class="stages__item-text">
+                                <p class="stages__item-desc">Підготовка матеріалів: дрібні фрагменти соєвого воску,
+                                    фітіль для свічки, ароматизатори, барвники та інші додаткові матеріали.
+                                </p>
+                                <h5 class="stages__item-number">06</h5>
+                            </div>
+                            <img src="./img/stages-6.jpg" class="stages__item-img">
+                        </div>
+                        <div class="stages__item">
+                            <div class="stages__item-text">
+                                <p class="stages__item-desc">Підготовка матеріалів: дрібні фрагменти соєвого воску,
+                                    фітіль для свічки, ароматизатори, барвники та інші додаткові матеріали.
+                                </p>
+                                <h5 class="stages__item-number">07</h5>
+                            </div>
+                            <img src="./img/stages-7.jpg" class="stages__item-img">
+                        </div>
+                        <div class="stages__item">
+                            <div class="stages__item-text">
+                                <p class="stages__item-desc">Підготовка матеріалів: дрібні фрагменти соєвого воску,
+                                    фітіль для свічки, ароматизатори, барвники та інші додаткові матеріали.
+                                </p>
+                                <h5 class="stages__item-number">08</h5>
+                            </div>
+                            <img src="./img/stages-8.jpg" class="stages__item-img">
+                        </div>
+                        <div class="stages__item">
+                            <div class="stages__item-text">
+                                <p class="stages__item-desc">Підготовка матеріалів: дрібні фрагменти соєвого воску,
+                                    фітіль для свічки, ароматизатори, барвники та інші додаткові матеріали.
+                                </p>
+                                <h5 class="stages__item-number">09</h5>
+                            </div>
+                            <img src="./img/stages-9.jpg" class="stages__item-img">
+                        </div>
+                        <div class="stages__item">
+                            <div class="stages__item-text">
+                                <p class="stages__item-desc">Підготовка матеріалів: дрібні фрагменти соєвого воску,
+                                    фітіль для свічки, ароматизатори, барвники та інші додаткові матеріали.
+                                </p>
+                                <h5 class="stages__item-number">10</h5>
+                            </div>
+                            <img src="./img/stages-10.jpg" class="stages__item-img">
+                        </div>
+                    </div>
+                    <span class="stages__candle candle-line"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="courses section">
+            <div class="container">
+                <div class="courses__inner section__inner">
+                    <div class="courses__description section__description">
+                        <h3 class="courses__title title">Наші курси</h3>
+                        <p class="courses__text text">Наші курси дозволяють зробити перший крок в новій кар'єрі або
+                            поглибити знання в своїй галузі, розвиватися як професіонал, а також покращити якість свого
+                            життя.
+                        </p>
+                    </div>
+                    <div class="courses__items section__content">
+                        <div class="courses__item">
+                            <img src="./img/courses-1.jpg" alt="" class="courses__item-img">
+                            <h4 class="courses__item-title title">Основи виготовлення свічок</h4>
+                            <p class="courses__item-text">Будем навчати основам виготовлення свічок з різних матеріалів.
+                            </p>
+                            <button class="courses__item-btn button">Купити курс</button>
+                        </div>
+                        <div class="courses__item">
+                            <img src="./img/courses-2.jpg" alt="" class="courses__item-img">
+                            <h4 class="courses__item-title title">Мистецтво ароматерапії</h4>
+                            <p class="courses__item-text">Будем вивчати мистецтво ароматерапії та виготовлення свічок з
+                                різними ароматами.
+                            </p>
+                            <button class="courses__item-btn button">Купити курс</button>
+                        </div>
+                    </div>
+                    <span class="courses__candle candle-line"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="teachers section">
+            <div class="container">
+                <div class="teachers__inner section__inner">
+                    <div class="teachers__description">
+                        <h3 class="teachers__title title">Наші викладачі</h3>
+                        <p class="teachers__text">Ці люди працюють разом, щоб створювати курси для вас, які допоможуть
+                            вам почати власний бізнес або хоббі.
+                        </p>
+                    </div>
+                    <div class="teachers__items section__content">
+                        <div class="teachers__item">
+                            <img src="./img/teachers-1.jpg" alt="" class="teachers__item-img">
+                            <div class="teachers__item-name">
+                                <h5 class="teachers__item-name-title title">Викладач Богдан</h5>
+                                <p class="teachers__item-name-text">Має досвід викладання і роботи 4 роки
+                                </p>
+                            </div>
+                        </div>
+                        <div class="teachers__item">
+                            <img src="./img/teachers-2.jpg" alt="" class="teachers__item-img">
+                            <div class="teachers__item-name">
+                                <h5 class="teachers__item-name-title title">Викладач Богдан</h5>
+                                <p class="teachers__item-name-text">Має досвід викладання і роботи 4 роки
+                                </p>
+                            </div>
+                        </div>
+                        <div class="teachers__item">
+                            <img src="./img/teachers-3.jpg" alt="" class="teachers__item-img">
+                            <div class="teachers__item-name">
+                                <h5 class="teachers__item-name-title title">Викладач Богдан</h5>
+                                <p class="teachers__item-name-text">Має досвід викладання і роботи 4 роки
+                                </p>
+                            </div>
+                        </div>
+                        <div class="teachers__item">
+                            <img src="./img/teachers-4.jpg" alt="" class="teachers__item-img">
+                            <div class="teachers__item-name">
+                                <h5 class="teachers__item-name-title title">Викладач Богдан</h5>
+                                <p class="teachers__item-name-text">Має досвід викладання і роботи 4 роки
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./img/logo.png" alt="logo" class="logo__img">
+            </a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__list-item"><a href="#" class="menu__list-link">Про нас</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-link">Каталог</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-link">Команда</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-link">Відгуки</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-link">Курси</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-link">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="footer__contacts">
+                <a href="tel:+89994508011" class="phone">+45 34 56 78 92</a>
+                <a href="mailto:nbavsunovsky@gamil.com" class="email">nbavsunovsky@gamil.com</a>
+                <ul class="footer__social">
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <img src="./img/facebook.svg" alt="facebook" class="footer__social-img"></a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <img src="./img/instagram.svg" alt="instagram" class="footer__social-img"></a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <img src="./img/linkedin.svg" alt="linkedin" class="footer__social-img"></a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <img src="./img/youtube.svg" alt="youtube" class="footer__social-img"></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

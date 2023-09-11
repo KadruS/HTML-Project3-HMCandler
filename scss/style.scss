@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&family=Yeseva+One&display=swap');
+
+body {
+    // font-family: 'Yeseva One', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: 400;
+    // font-style: normal;
+    line-height: 1.14;
+    color: #000;
+    background-color: #FFF8F3;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.menu {
+    .menu__list {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        z-index: 3;
+    }
+    .menu__list-link {
+        text-transform: uppercase;
+    }
+}
+.phone {
+    display: flex;
+    align-items: center;
+    
+}
+
+.button {
+    padding: 20px 47px;
+    background-color: #FFBD59;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.section {
+    position: relative;
+    overflow: hidden;
+    .section__inner {
+        padding-top: 150px;
+        display: grid;
+        grid-template-columns: 392px auto;
+        position: relative;
+    }
+    .section__description {
+
+    }
+    .section__content {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 0 auto;
+    }
+}
+
+.title {
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    margin-bottom: 15px;
+    max-width: 370px;
+}
+
+.text {
+    max-width: 370px;
+}
+
+.candle-line {
+    display: block;
+    border-top: 1px solid #7B6152;
+    position: absolute;
+    width: 1300px;
+    left: 392px;
+    right: 0;
+    bottom: 0;
+    &:before {
+        content: '';
+        position: absolute;
+        background-image: url(../img/candle-ico.svg);
+        width: 24px;
+        height: 33px;
+        left: -21px;
+        top: -21px;
+    }
+}
+
+
+/* HEADER */
+.header {
+    background-color: #FFF8F3;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    padding-top: 4px;
+}
+
+
+/* TOP SECTION */
+.top {
+    height: 850px;
+    padding: 30px 0 150px;
+    overflow: hidden;
+    .container {   
+        position: relative;
+    }
+    .top__content {
+        margin-top: 165px;
+    }
+    .top__title {
+        font-family: 'Yeseva One', cursive;
+        font-size: 30px;
+        margin-bottom: 15px;
+        max-width: 391px;
+    }
+    .top__text {
+        margin-bottom: 48px;
+        max-width: 371px;
+    }
+    .top__img-l {
+        position: absolute;
+        top: -160px;
+        left: 250px;
+        width: 1068.992px;
+        height: 669.289px;
+    }
+    .top__img-m {
+        display: none;
+    }
+    .top__img-s {
+        display: none;
+    }
+}
+
+
+/* ABOUT SECTION */
+.about {
+    background-color: #A5978E;
+    color: #FAFAFA;
+    height: 535px;
+    overflow: hidden;
+    .container {
+        position: relative;
+    }
+    .about__content {
+        padding-top: 128px;
+    }
+    .about__text {
+        &:nth-child(3) {
+            margin-top: 20px;
+        }
+    }
+    .about__img-l {
+        position: absolute;
+        top: 50px;
+        left: 500px;
+        width: 819.759px;
+        height: 377px;
+    }
+    .about__img-m {
+        display: none;
+    }
+    .about__img-s {
+        display: none;
+    }
+    .about__candle {
+        margin-top: 126px;
+        margin-left: 392px;
+    }
+
+}
+
+
+/* PRODUCTS SECTION */
+// .products {
+//     height: 1300px;
+//     overflow: hidden;
+//     .products__content {
+//         padding-top: 150px;
+//         display: flex;
+//         // justify-content: space-between;
+//         gap: 70px;
+//     }
+//     .products__title-box {
+//     }
+//     .products__title {
+//     }
+//     .products__text {
+//     }
+//     .products__items {
+//         max-width: 673px;
+//         min-height: 1050px;
+//         display: flex;
+//         flex-wrap: wrap;
+//         // gap: 50px 93px;
+//         justify-content: space-between;
+//         align-content: space-between;
+//     }
+//     .products__item {
+//         text-align: center;
+//         max-width: 290px;
+//         min-height: 500px;
+//     }
+//     .products__item-img {
+//         width: 274px;
+//         height: 310px;
+//     }
+//     .products__item-price {
+//         font-size: 16px;
+//         margin: 8px 0 12px;
+//     }
+//     .products__item-title {
+//         font-size: 16px;
+//         margin-bottom: 16px;
+//     }
+//     .products__item-text {
+//         width: 290px;
+//         height: 39px;
+//         font-size: 12px;
+//         margin-bottom: 27px;
+//     }
+//     .products__item-btn {
+//     }
+//     .products__candle {
+//         margin-top: 70px;
+//     }
+// }
+.products {
+    min-height: 1279px;
+    .products__inner {
+        padding-top: 150px;
+    }
+    .products__description {
+    }
+    .products__title {
+    }
+    .products__text {
+    }
+    .products__items {
+        gap: 50px 93px;
+    }
+    .products__item {
+        max-width: 290px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .products__item-img {
+        margin-bottom: 8px;
+    }
+    .products__item-price {
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+    .products__item-title {
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+    .products__item-text {
+        margin-bottom: 27px;
+        font-size: 12px;
+        height: 39px;
+    }
+    .products__item-btn {
+        padding: 18px 46px;
+    }
+    .products__candle {
+        bottom: -70px;
+    }
+}
+
+/* STAGES SECTION */
+.stages {
+    min-height: 1628px;
+    .stages__items {
+        gap: 70px 25px;
+        :nth-child(4n+3) {
+            flex-direction: row-reverse;
+            .stages__item-number {
+                align-self: flex-end;
+            }
+        }
+        :nth-child(4n+4) {
+            flex-direction: row-reverse;
+            .stages__item-number {
+                align-self: flex-end;
+            }
+        }
+    }
+    .stages__item {
+        display: flex;
+        justify-content: space-between;
+        width: 370px;
+    }
+    .stages__item-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .stages__item-desc {
+        max-width: 174px;
+    }
+    
+    .stages__item-number {
+        font-size: 30px;
+        font-family: 'Yeseva One', cursive;
+        color: #A5978E;
+    }
+    .stages__candle {
+        bottom: -72px;
+    }
+}
+
+/* COURSES SECTION */
+.courses {
+    min-height: 921px;
+    .courses__items {
+        gap: 126px;
+    }
+    .courses__item {
+        width: 269px;
+        text-align: center;
+        position: relative;
+        &:after {
+            position: absolute;
+            bottom: 161px;
+            right: -14px;
+            content: '';
+            background-color: #A5978E;
+            width: 86px;
+            height: 50px;
+            z-index: -1;
+        }
+    }
+    .courses__item-img {
+        margin-bottom: 28px;
+        z-index: 10;
+    }
+    .courses__item-title {
+        font-size: 16px;
+    }
+    .courses__item-text {
+        margin-bottom: 23.5px;
+    }
+    .courses__item-btn {
+        padding: 13px 17px;
+    }
+    .courses__candle {
+        bottom: -70.5px;
+    }
+}
+
+/* TEACHERS SECTION */
+.teachers {
+    min-height: 662px;
+    background-color: #A5978E; //7B6152
+    color: #FAFAFA;
+    .teachers__inner {
+        padding-top: 50px;
+    }
+    .teachers__items {
+        gap: 78px 20px ;
+    }
+    .teachers__item {
+        padding-left: 39px;
+        width: 375px;
+        position: relative;
+    }
+    .teachers__item-name {
+        background-color: #7B6152;
+        position: absolute;
+        top: 142px;
+        left: 197px;
+        width: 162px;
+        height: 70px;
+        text-align: center;
+    }
+    .teachers__item-name-title {
+        font-size: 12.473px;
+        margin-bottom: 3px;
+        margin-top: 14px;
+    }
+    .teachers__item-name-text {
+        font-size: 10.914px;
+    }
+}
+
+
+
+/* FOOTER */
+.footer {
+    background-color: #fff;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    padding: 39px 0 34px;
+    .footer__contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+        // max-width: 230px;
+        // width: 100%;
+    }
+    .footer__social {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+    }
+}
