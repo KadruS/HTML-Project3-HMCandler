@@ -48,9 +48,6 @@ body {
         grid-template-columns: 392px auto;
         position: relative;
     }
-    .section__description {
-
-    }
     .section__content {
         display: grid;
         grid-template-columns: auto auto;
@@ -234,12 +231,6 @@ body {
     min-height: 1279px;
     .products__inner {
         padding-top: 150px;
-    }
-    .products__description {
-    }
-    .products__title {
-    }
-    .products__text {
     }
     .products__items {
         gap: 50px 93px;
